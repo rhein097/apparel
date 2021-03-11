@@ -1,0 +1,7 @@
+build:
+  languages:
+    - python
+  packages:
+
+run:
+  web: gunicorn web:app --log-file=-
